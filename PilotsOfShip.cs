@@ -20,6 +20,6 @@ namespace UP_laba3_EF
         public int AgePilot { get; set; }
         public Nullable<int> SpaceShip_ID { get; set; }
     
-        public virtual SpaceShips SpaceShips { private get; set; }
+        public virtual SpaceShips SpaceShips { get; set; }
     }
 }

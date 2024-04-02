@@ -13,10 +13,10 @@ namespace UP_laba3_EF
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class UP_laba_1Entities : DbContext
+    public partial class UP_laba_1Entities1 : DbContext
     {
-        public UP_laba_1Entities()
-            : base("name=UP_laba_1Entities")
+        public UP_laba_1Entities1()
+            : base("name=UP_laba_1Entities1")
         {
         }
     

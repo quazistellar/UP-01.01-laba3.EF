@@ -54,7 +54,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="UP_laba_1Entities" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="UP_laba_1Entities1" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="PilotsOfShip" EntityType="Self.PilotsOfShip" />
     <EntitySet Name="ShipsTypes" EntityType="Self.ShipsTypes" />
     <EntitySet Name="SpaceShips" EntityType="Self.SpaceShips" />

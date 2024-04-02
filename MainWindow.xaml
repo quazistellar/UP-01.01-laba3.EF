@@ -16,17 +16,16 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
+        
         <DataGrid x:Name="dgrid" AutoGenerateColumns="False" IsReadOnly="True" Grid.Column="0" Grid.Row="0" Background="#FF522C9F" BorderBrush="#FFFF0096" Foreground="Black" FontFamily="Arial Black">
-            
             <DataGrid.Columns>
-                <DataGridTextColumn Binding="{Binding NamePilot}" Header="Имя пилота"/>
-                <DataGridTextColumn Binding="{Binding SurnamePilot}" Header="Фамилия пилота"/>
-                <DataGridTextColumn Binding="{Binding AgePilot}" Header="Возраст"/>
-                <DataGridTextColumn Binding="{Binding SpaceShip.ShipName}" Header="Название корабля"/>
-                <DataGridTextColumn Binding="{Binding SpaceShip.AmountFlights}" Header="Количество полётов"/>
-                <DataGridTextColumn Binding="{Binding SpaceShip.ShipType.TypeShipName}" Header="Тип корабля"/>
+                <DataGridTextColumn Header="Имя пилота" Binding="{Binding NamePilot}" />
+                <DataGridTextColumn Header="Фамилия пилота" Binding="{Binding SurnamePilot}" />
+                <DataGridTextColumn Header="Возраст" Binding="{Binding AgePilot}" />
+                <DataGridTextColumn Header="Название корабля" Binding="{Binding NameShip}" />
+                <DataGridTextColumn Header="Количество полётов" Binding="{Binding AmountFlights}" />
+                <DataGridTextColumn Header="Тип корабля" Binding="{Binding TypeShipName}" />
             </DataGrid.Columns>
-            
         </DataGrid>
         
         <Button Content="Выход" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Height="35" Width="170" FontFamily="Arial Black" FontSize="20" Background="#FFDC54D6" Click="Button_Click"/>

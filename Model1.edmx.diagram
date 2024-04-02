@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="a1cd189bc2674aacbfe4246d509109b1" Name="Diagram1">
+      <Diagram DiagramId="58ec56ae95084e5eada9fd1453782815" Name="Diagram1">
         <EntityTypeShape EntityType="UP_laba_1Model.PilotsOfShip" Width="1.5" PointX="5.25" PointY="0.875" IsExpanded="true" />
         <EntityTypeShape EntityType="UP_laba_1Model.ShipsTypes" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
         <EntityTypeShape EntityType="UP_laba_1Model.SpaceShips" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />

@@ -26,7 +26,7 @@ namespace UP_laba3_EF
         public int TypeShip_ID { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<PilotsOfShip> PilotsOfShip { private get; set; }
-        public virtual ShipsTypes ShipsTypes { private get; set; }
+        public virtual ICollection<PilotsOfShip> PilotsOfShip { get; set; }
+        public virtual ShipsTypes ShipsTypes { get; set; }
     }
 }

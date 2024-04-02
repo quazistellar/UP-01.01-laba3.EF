@@ -24,6 +24,6 @@ namespace UP_laba3_EF
         public string Types_Name { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<SpaceShips> SpaceShips { private get; set; }
+        public virtual ICollection<SpaceShips> SpaceShips { get; set; }
     }
 }

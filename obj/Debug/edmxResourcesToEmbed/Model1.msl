@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="Хранилище UP_laba_1ModelContainer" CdmEntityContainer="UP_laba_1Entities">
+  <EntityContainerMapping StorageEntityContainer="Хранилище UP_laba_1ModelContainer" CdmEntityContainer="UP_laba_1Entities1">
     <EntitySetMapping Name="PilotsOfShip">
       <EntityTypeMapping TypeName="UP_laba_1Model.PilotsOfShip">
         <MappingFragment StoreEntitySet="PilotsOfShip">

@@ -127,7 +127,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="UP_laba_1Entities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="UP_laba_1Entities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="PilotsOfShip" EntityType="Self.PilotsOfShip" />
           <EntitySet Name="ShipsTypes" EntityType="Self.ShipsTypes" />
           <EntitySet Name="SpaceShips" EntityType="Self.SpaceShips" />
@@ -145,7 +145,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="Хранилище UP_laba_1ModelContainer" CdmEntityContainer="UP_laba_1Entities">
+        <EntityContainerMapping StorageEntityContainer="Хранилище UP_laba_1ModelContainer" CdmEntityContainer="UP_laba_1Entities1">
           <EntitySetMapping Name="PilotsOfShip">
             <EntityTypeMapping TypeName="UP_laba_1Model.PilotsOfShip">
               <MappingFragment StoreEntitySet="PilotsOfShip">
